@@ -1,0 +1,173 @@
+make: Entering directory '/home/iriska/picoreverse/slam/orbslam3lib/build-host'
+[  7%] Built target stuff
+[ 29%] Built target core
+[ 31%] Built target solver_eigen
+[ 48%] Built target types_slam3d
+[ 65%] Built target types_sba
+[ 67%] Built target types_sim3
+[ 67%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/System.cc.o
+[ 68%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LocalMapping.cc.o
+[ 70%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Tracking.cc.o
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/System.cc:29:9: warning: ‘_GNU_SOURCE’ redefined
+   29 | #define _GNU_SOURCE
+      |         ^~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+[ 70%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LoopClosing.cc.o
+[ 71%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/ORBextractor.cc.o
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LoopClosing.cc: In member function ‘void ORB_SLAM3::LoopClosing::MergeLocal()’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LoopClosing.cc:1315:30: warning: ignoring return value of ‘bool std::vector<_Tp, _Alloc>::empty() const [with _Tp = ORB_SLAM3::KeyFrame*; _Alloc = std::allocator<ORB_SLAM3::KeyFrame*>]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+ 1315 |             vpNewCovKFs.empty();
+      |             ~~~~~~~~~~~~~~~~~^~
+In file included from /usr/include/c++/16/vector:68,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/Frame.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/MapPoint.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/KeyFrame.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/LoopClosing.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LoopClosing.cc:20:
+/usr/include/c++/16/bits/stl_vector.h:1213:7: note: declared here
+ 1213 |       empty() const _GLIBCXX_NOEXCEPT
+      |       ^~~~~
+[ 71%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/ORBmatcher.cc.o
+[ 71%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/MapPoint.cc.o
+[ 73%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc.o
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc: In constructor ‘ORB_SLAM3::KeyFrame::KeyFrame()’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc:36:89: warning: passing NULL to non-pointer argument 1 of ‘std::vector<_Tp, _Alloc>::vector(size_type, const allocator_type&) [with _Tp = cv::KeyPoint; _Alloc = std::allocator<cv::KeyPoint>; size_type = long unsigned int; allocator_type = std::allocator<cv::KeyPoint>]’ [-Wconversion-null]
+   36 |         mbf(0), mb(0), mThDepth(0), N(0), mvKeys(static_cast<vector<cv::KeyPoint> >(NULL)), mvKeysUn(static_cast<vector<cv::KeyPoint> >(NULL)),
+      |                                                                                         ^
+In file included from /usr/include/c++/16/vector:68,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/Frame.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/MapPoint.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/KeyFrame.h:23,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc:19:
+/usr/include/c++/16/bits/stl_vector.h:576:24: note: declared here
+  576 |       vector(size_type __n, const allocator_type& __a = allocator_type())
+      |              ~~~~~~~~~~^~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc:36:141: warning: passing NULL to non-pointer argument 1 of ‘std::vector<_Tp, _Alloc>::vector(size_type, const allocator_type&) [with _Tp = cv::KeyPoint; _Alloc = std::allocator<cv::KeyPoint>; size_type = long unsigned int; allocator_type = std::allocator<cv::KeyPoint>]’ [-Wconversion-null]
+   36 |         mbf(0), mb(0), mThDepth(0), N(0), mvKeys(static_cast<vector<cv::KeyPoint> >(NULL)), mvKeysUn(static_cast<vector<cv::KeyPoint> >(NULL)),
+      |                                                                                                                                             ^
+/usr/include/c++/16/bits/stl_vector.h:576:24: note: declared here
+  576 |       vector(size_type __n, const allocator_type& __a = allocator_type())
+      |              ~~~~~~~~~~^~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc:37:50: warning: passing NULL to non-pointer argument 1 of ‘std::vector<_Tp, _Alloc>::vector(size_type, const allocator_type&) [with _Tp = float; _Alloc = std::allocator<float>; size_type = long unsigned int; allocator_type = std::allocator<float>]’ [-Wconversion-null]
+   37 |         mvuRight(static_cast<vector<float> >(NULL)), mvDepth(static_cast<vector<float> >(NULL)), mnScaleLevels(0), mfScaleFactor(0),
+      |                                                  ^
+/usr/include/c++/16/bits/stl_vector.h:576:24: note: declared here
+  576 |       vector(size_type __n, const allocator_type& __a = allocator_type())
+      |              ~~~~~~~~~~^~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrame.cc:37:94: warning: passing NULL to non-pointer argument 1 of ‘std::vector<_Tp, _Alloc>::vector(size_type, const allocator_type&) [with _Tp = float; _Alloc = std::allocator<float>; size_type = long unsigned int; allocator_type = std::allocator<float>]’ [-Wconversion-null]
+   37 |         mvuRight(static_cast<vector<float> >(NULL)), mvDepth(static_cast<vector<float> >(NULL)), mnScaleLevels(0), mfScaleFactor(0),
+      |                                                                                              ^
+/usr/include/c++/16/bits/stl_vector.h:576:24: note: declared here
+  576 |       vector(size_type __n, const allocator_type& __a = allocator_type())
+      |              ~~~~~~~~~~^~~
+[ 73%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Atlas.cc.o
+[ 75%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Map.cc.o
+[ 75%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Optimizer.cc.o
+[ 76%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc.o
+[ 78%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/KeyFrameDatabase.cc.o
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc: In member function ‘void ORB_SLAM3::Frame::ComputeStereoFishEyeMatches()’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1161:17: error: ‘uint16’ was not declared in this scope; did you mean ‘uint64’?
+ 1161 |     std::vector<uint16> indices, dist1, dist2;
+      |                 ^~~~~~
+      |                 uint64
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1161:23: error: template argument 1 is invalid
+ 1161 |     std::vector<uint16> indices, dist1, dist2;
+      |                       ^
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1161:23: error: template argument 2 is invalid
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1164:117: error: cannot convert ‘int’ to ‘std::vector<short unsigned int>&’
+ 1164 |     LynxHardwareAccelerator::lynxHardwareAccelerator->BFMatchORB(mnIdMatchingData, stereoDescRight, stereoDescLeft, indices, dist1, dist2);
+      |                                                                                                                     ^~~~~~~
+      |                                                                                                                     |
+      |                                                                                                                     int
+In file included from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/ORBextractor.h:25,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/KeyFrame.h:27,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/G2oTypes.h:35,
+                 from /home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:21:
+/home/iriska/picoreverse/slam/orbslam3lib/linux/../app/src/main/cpp/include/LynxHardwareAcceleration/LynxHardwareAccelerator.h:52:134: note: initializing argument 4 of ‘void ORB_SLAM3::LynxHardwareAccelerator::BFMatchORB(int, const cv::Mat&, const cv::Mat&, std::vector<short unsigned int>&, std::vector<short unsigned int>&, std::vector<short unsigned int>&) const’
+   52 |         void BFMatchORB(int nIdMatchingData, const cv::Mat &leftDescriptors, const cv::Mat &rightDescriptors, std::vector<uint16_t>& indices, std::vector<uint16_t>& dist1, std::vector<uint16_t>& dist2) const;
+      |                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1171:17: error: invalid types ‘int[int]’ for array subscript
+ 1171 |         if(dist1[i] == 0){
+      |                 ^
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1173:69: error: invalid types ‘int[int]’ for array subscript
+ 1173 |             std::cout << "Bugged point : " << i << " => " << indices[i] << "(" << mvKeys[i + monoLeft].pt.x << ", " << mvKeys[i + monoLeft].pt.y << ") => (" << mvKeysRight[indices[i] + monoRight].pt.x << ", " << mvKeysRight[indices[i] + monoRight].pt.y << ")" << std::endl;
+      |                                                                     ^
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1173:180: error: invalid types ‘int[int]’ for array subscript
+ 1173 |             std::cout << "Bugged point : " << i << " => " << indices[i] << "(" << mvKeys[i + monoLeft].pt.x << ", " << mvKeys[i + monoLeft].pt.y << ") => (" << mvKeysRight[indices[i] + monoRight].pt.x << ", " << mvKeysRight[indices[i] + monoRight].pt.y << ")" << std::endl;
+      |                                                                                                                                                                                    ^
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1173:232: error: invalid types ‘int[int]’ for array subscript
+ 1173 |             std::cout << "Bugged point : " << i << " => " << indices[i] << "(" << mvKeys[i + monoLeft].pt.x << ", " << mvKeys[i + monoLeft].pt.y << ") => (" << mvKeysRight[indices[i] + monoRight].pt.x << ", " << mvKeysRight[indices[i] + monoRight].pt.y << ")" << std::endl;
+      |                                                                                                                                                                                                                                        ^
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1177:17: error: invalid types ‘int[int]’ for array subscript
+ 1177 |         if(dist1[i] < max_distance){
+      |                 ^
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc:1182:35: error: invalid types ‘int[int]’ for array subscript
+ 1182 |             int rightPos = indices[i];
+      |                                   ^
+[ 78%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Sim3Solver.cc.o
+[ 78%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/G2oTypes.cc.o
+make[3]: *** [CMakeFiles/orbslam3.dir/build.make:247: CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Frame.cc.o] Error 1
+[ 79%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp.o
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp: In member function ‘virtual bool ORB_SLAM3::EdgeInverseSim3ProjectXYZ::read(std::istream&)’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:312:36: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+  312 |                 is >> information()(i,j);
+      |                       ~~~~~~~~~~~~~^~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:311:28: note: within this loop
+  311 |             for (int j=i; j<2; j++) {
+      |                           ~^~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp: In member function ‘virtual bool ORB_SLAM3::EdgeSE3ProjectXYZOnlyPose::read(std::istream&)’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:28:36: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+   28 |                 is >> information()(i,j);
+      |                       ~~~~~~~~~~~~~^~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:27:28: note: within this loop
+   27 |             for (int j=i; j<2; j++) {
+      |                           ~^~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp: In member function ‘virtual bool ORB_SLAM3::EdgeSE3ProjectXYZOnlyPoseToBody::read(std::istream&)’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:71:36: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+   71 |                 is >> information()(i,j);
+      |                       ~~~~~~~~~~~~~^~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:70:28: note: within this loop
+   70 |             for (int j=i; j<2; j++) {
+      |                           ~^~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp: In member function ‘virtual bool ORB_SLAM3::EdgeSE3ProjectXYZ::read(std::istream&)’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:118:36: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+  118 |                 is >> information()(i,j);
+      |                       ~~~~~~~~~~~~~^~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:117:28: note: within this loop
+  117 |             for (int j=i; j<2; j++) {
+      |                           ~^~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp: In member function ‘virtual bool ORB_SLAM3::EdgeSE3ProjectXYZToBody::read(std::istream&)’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:171:36: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+  171 |                 is >> information()(i,j);
+      |                       ~~~~~~~~~~~~~^~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:170:28: note: within this loop
+  170 |             for (int j=i; j<2; j++) {
+      |                           ~^~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp: In member function ‘virtual bool ORB_SLAM3::EdgeSim3ProjectXYZ::read(std::istream&)’:
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:278:36: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+  278 |                 is >> information()(i,j);
+      |                       ~~~~~~~~~~~~~^~~~~
+/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/OptimizableTypes.cpp:277:28: note: within this loop
+  277 |             for (int j=i; j<2; j++) {
+      |                           ~^~
+[ 79%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/MLPnPsolver.cpp.o
+[ 81%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/GeometricTools.cc.o
+[ 82%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/TwoViewReconstruction.cc.o
+[ 84%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/Settings.cc.o
+[ 84%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LynxHardwareAcceleration/LynxHardwareAccelerator.cpp.o
+[ 85%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LynxHardwareAcceleration/FrameAHB.cc.o
+[ 85%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/BowVector.cpp.o
+[ 87%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/FBrief.cpp.o
+[ 87%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/FORB.cpp.o
+[ 89%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/FSurf64.cpp.o
+[ 89%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/FeatureVector.cpp.o
+[ 90%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/QueryResults.cpp.o
+[ 92%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/Thirdparty/DBoW2/src/ScoringObject.cpp.o
+[ 92%] Building CXX object CMakeFiles/orbslam3.dir/home/iriska/picoreverse/slam/orbslam3lib/app/src/main/cpp/src/LynxHardwareAcceleration/orbslam3_ref.cpp.o
+make[3]: Target 'CMakeFiles/orbslam3.dir/build' not remade because of errors.
+make[2]: *** [CMakeFiles/Makefile2:582: CMakeFiles/orbslam3.dir/all] Error 2
+make[2]: Target 'CMakeFiles/lynx_stereo.dir/all' not remade because of errors.
+make[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/lynx_stereo.dir/rule] Error 2
+make[1]: Target 'lynx_stereo' not remade because of errors.
+make: *** [Makefile:202: lynx_stereo] Error 2
+make: Leaving directory '/home/iriska/picoreverse/slam/orbslam3lib/build-host'

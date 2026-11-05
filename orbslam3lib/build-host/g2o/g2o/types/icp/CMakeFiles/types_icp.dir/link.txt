@@ -1,0 +1,2 @@
+/bin/ar qc libg2o_types_icp.a CMakeFiles/types_icp.dir/types_icp.cpp.o
+/bin/ranlib libg2o_types_icp.a

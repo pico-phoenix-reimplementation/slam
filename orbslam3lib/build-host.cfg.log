@@ -1,0 +1,59 @@
+The no-dev option is deprecated.  Use -Wno-author instead.
+-- The C compiler identification is GNU 16.2.1
+-- The CXX compiler identification is GNU 16.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /home/iriska/picoreverse/tools/opencv-host (found suitable version "4.10.0", minimum required is "4") found components: core imgproc features2d calib3d
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Compiling on Unix
+-- Failed to find SuiteSparse - Did not find BLAS library (required for SuiteSparse).
+-- Failed to find SuiteSparse - Did not find LAPACK library (required for SuiteSparse).
+-- Failed to find SuiteSparse - Did not find AMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find AMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CAMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CAMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CCOLAMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CCOLAMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CHOLMOD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CHOLMOD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find COLAMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find COLAMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find SPQR header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find SPQR library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find Config header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find Config library (required SuiteSparse component).
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Failed to find some/all required components of SuiteSparse. (missing: SuiteSparse_AMD_INCLUDE_DIR SuiteSparse_AMD_LIBRARY SuiteSparse_CAMD_INCLUDE_DIR SuiteSparse_CAMD_LIBRARY SuiteSparse_CCOLAMD_INCLUDE_DIR SuiteSparse_CCOLAMD_LIBRARY SuiteSparse_CHOLMOD_INCLUDE_DIR SuiteSparse_CHOLMOD_LIBRARY SuiteSparse_COLAMD_INCLUDE_DIR SuiteSparse_COLAMD_LIBRARY SuiteSparse_SPQR_INCLUDE_DIR SuiteSparse_SPQR_LIBRARY SuiteSparse_Config_INCLUDE_DIR SuiteSparse_Config_LIBRARY AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config) 
+-- Disable support for Cholmod
+-- Building LGPL code as a static library (affects license of the binary)
+-- Could NOT find CSparse (missing: CSPARSE_INCLUDE_DIR CSPARSE_LIBRARY) 
+-- Disable support for CSparse
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Could NOT find QGLViewer (missing: QGLVIEWER_INCLUDE_DIR QGLVIEWER_LIBRARY) 
+-- Compiling SLAM 3D types
+-- Compiling built in types slam2d slam2d (addons) data sclam2d slam3d slam3d (addons) sba icp sim3
+-- Performing Test SSE2_AVAILABLE
+-- Performing Test SSE2_AVAILABLE - Success
+-- Performing Test SSE3_AVAILABLE
+-- Performing Test SSE3_AVAILABLE - Success
+-- Performing Test SSSE3_AVAILABLE
+-- Performing Test SSSE3_AVAILABLE - Success
+-- Performing Test SSE41_AVAILABLE
+-- Performing Test SSE41_AVAILABLE - Success
+-- Performing Test SSE42_AVAILABLE
+-- Performing Test SSE42_AVAILABLE - Success
+-- Compiling with GCC
+-- Configuring done (2.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/iriska/picoreverse/slam/orbslam3lib/build-host

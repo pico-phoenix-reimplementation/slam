@@ -1,0 +1,2 @@
+/bin/ar qc libg2o_solver_structure_only.a CMakeFiles/solver_structure_only.dir/structure_only.cpp.o
+/bin/ranlib libg2o_solver_structure_only.a

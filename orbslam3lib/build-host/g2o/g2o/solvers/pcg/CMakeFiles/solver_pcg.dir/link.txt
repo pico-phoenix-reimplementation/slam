@@ -1,0 +1,2 @@
+/bin/ar qc libg2o_solver_pcg.a CMakeFiles/solver_pcg.dir/solver_pcg.cpp.o
+/bin/ranlib libg2o_solver_pcg.a

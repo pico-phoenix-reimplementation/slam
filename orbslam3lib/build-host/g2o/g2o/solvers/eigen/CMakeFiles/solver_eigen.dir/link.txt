@@ -1,0 +1,2 @@
+/bin/ar qc libg2o_solver_eigen.a CMakeFiles/solver_eigen.dir/solver_eigen.cpp.o
+/bin/ranlib libg2o_solver_eigen.a

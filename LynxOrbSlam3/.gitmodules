@@ -1,0 +1,6 @@
+[submodule "SlamService/external/include/glm"]
+	path = SlamService/external/include/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "SlamService/external/orbslam3lib"]
+	path = SlamService/external/orbslam3lib
+	url = http://github.com/Lynx-MR/orbslam3lib.git

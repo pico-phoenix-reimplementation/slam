@@ -1,0 +1,29 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/EXTERNAL/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/autodiff/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/stuff/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/core/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/slam2d/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/slam2d_addons/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/data/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/sclam2d/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/slam3d/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/slam3d_addons/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/sba/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/icp/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/types/sim3/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/solvers/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/solvers/pcg/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/solvers/dense/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/solvers/slam2d_linear/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/solvers/structure_only/cmake_install.cmake",
+		"/home/iriska/picoreverse/slam/orbslam3lib/build-host/g2o/g2o/solvers/eigen/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

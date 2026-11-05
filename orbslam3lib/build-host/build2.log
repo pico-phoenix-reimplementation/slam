@@ -1,0 +1,43 @@
+make: Entering directory '/home/iriska/picoreverse/slam/orbslam3lib/build-host'
+-- Found OpenCV: /home/iriska/picoreverse/tools/opencv-host (found suitable version "4.10.0", minimum required is "4") found components: core imgproc features2d calib3d imgcodecs
+-- Compiling on Unix
+-- Failed to find SuiteSparse - Did not find BLAS library (required for SuiteSparse).
+-- Failed to find SuiteSparse - Did not find LAPACK library (required for SuiteSparse).
+-- Failed to find SuiteSparse - Did not find AMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find AMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CAMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CAMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CCOLAMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CCOLAMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CHOLMOD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find CHOLMOD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find COLAMD header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find COLAMD library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find SPQR header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find SPQR library (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find Config header (required SuiteSparse component).
+-- Failed to find SuiteSparse - Did not find Config library (required SuiteSparse component).
+-- Failed to find some/all required components of SuiteSparse. (missing: SuiteSparse_AMD_INCLUDE_DIR SuiteSparse_AMD_LIBRARY SuiteSparse_CAMD_INCLUDE_DIR SuiteSparse_CAMD_LIBRARY SuiteSparse_CCOLAMD_INCLUDE_DIR SuiteSparse_CCOLAMD_LIBRARY SuiteSparse_CHOLMOD_INCLUDE_DIR SuiteSparse_CHOLMOD_LIBRARY SuiteSparse_COLAMD_INCLUDE_DIR SuiteSparse_COLAMD_LIBRARY SuiteSparse_SPQR_INCLUDE_DIR SuiteSparse_SPQR_LIBRARY SuiteSparse_Config_INCLUDE_DIR SuiteSparse_Config_LIBRARY AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config) 
+-- Disable support for Cholmod
+-- Building LGPL code as a static library (affects license of the binary)
+-- Could NOT find CSparse (missing: CSPARSE_INCLUDE_DIR CSPARSE_LIBRARY) 
+-- Disable support for CSparse
+-- Could NOT find QGLViewer (missing: QGLVIEWER_INCLUDE_DIR QGLVIEWER_LIBRARY) 
+-- Compiling SLAM 3D types
+-- Compiling built in types slam2d slam2d (addons) data sclam2d slam3d slam3d (addons) sba icp sim3
+-- Compiling with GCC
+-- Configuring done (0.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/iriska/picoreverse/slam/orbslam3lib/build-host
+[  9%] Built target stuff
+[ 30%] Built target core
+[ 33%] Built target solver_eigen
+[ 50%] Built target types_slam3d
+[ 67%] Built target types_sba
+[ 69%] Built target types_sim3
+[ 69%] Linking CXX shared library liborbslam3.so
+[ 98%] Built target orbslam3
+[100%] Linking CXX executable lynx_stereo
+[100%] Built target lynx_stereo
+[100%] Built target eval_ate
+make: Leaving directory '/home/iriska/picoreverse/slam/orbslam3lib/build-host'

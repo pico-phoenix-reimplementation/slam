@@ -1,0 +1,2 @@
+/bin/ar qc libg2o_solver_dense.a CMakeFiles/solver_dense.dir/solver_dense.cpp.o
+/bin/ranlib libg2o_solver_dense.a

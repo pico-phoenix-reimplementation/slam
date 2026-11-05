@@ -1,0 +1,56 @@
+%YAML:1.0
+# TUM-VI 512x512 stereo (dso/camchain.yaml of the dataset, equidistant = KB4)
+# placed in the 640x400 Lynx eye by lynx_stereo: centre pad x by +64, centre
+# crop y by -56 (cx += 64, cy -= 56).
+# Stereo.T_c1_c2 = inverse(cam1.T_cn_cnm1).
+File.version: "1.0"
+
+Camera.type: "KannalaBrandt8"
+Camera1.fx: 190.978477151
+Camera1.fy: 190.973307052
+Camera1.cx: 318.931706059
+Camera1.cy: 200.897442900
+Camera1.k1: 0.003482389402
+Camera1.k2: 0.000715034845
+Camera1.k3: -0.002053236142
+Camera1.k4: 0.000202936736
+Camera2.fx: 190.442369694
+Camera2.fy: 190.434438472
+Camera2.cx: 316.599497168
+Camera2.cy: 198.917230646
+Camera2.k1: 0.003400317079
+Camera2.k2: 0.001766278153
+Camera2.k3: -0.002663125698
+Camera2.k4: 0.000329951742
+Camera.width: 640
+Camera.height: 400
+Stereo.T_c1_c2: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [0.999999446, 0.000791688, 0.000694034, 0.101063427,
+    -0.000823364, 0.998899462, 0.046895491, 0.001946205,
+    -0.000656144, -0.046896036, 0.998899560, 0.001015350,
+    0.0, 0.0, 0.0, 1.0]
+Camera1.overlappingBegin: 0
+Camera1.overlappingEnd: 639
+Camera2.overlappingBegin: 0
+Camera2.overlappingEnd: 639
+Camera.fps: 20
+Camera.RGB: 0
+Stereo.ThDepth: 40.0
+ORBextractor.nFeatures: 2000
+ORBextractor.scaleFactor: 1.25
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 1.0
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.05
+Viewer.CameraLineWidth: 2.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0

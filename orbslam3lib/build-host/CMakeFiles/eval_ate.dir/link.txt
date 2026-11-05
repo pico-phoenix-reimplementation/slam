@@ -1,0 +1,1 @@
+/bin/c++ -O3 -ffast-math -ftree-vectorize -funroll-loops -march=native  -Wl,-z,stack-size=8388608 -Wl,--dependency-file=CMakeFiles/eval_ate.dir/link.d CMakeFiles/eval_ate.dir/eval_ate.cc.o -o eval_ate
